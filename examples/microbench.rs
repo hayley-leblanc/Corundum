@@ -1,5 +1,4 @@
-#![feature(asm)]
-
+use std::arch::asm;
 use corundum::measure;
 use corundum::default::{*, Journal};
 use corundum::stat::*;

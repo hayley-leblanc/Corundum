@@ -2,6 +2,7 @@
 #![allow(unused)]
 
 use crate::alloc::MemPool;
+use std::arch::asm;
 
 #[inline(always)]
 pub fn cpu() -> usize {
